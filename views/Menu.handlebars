@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="/bootstrap/bootstrap.css">
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #417C08;">
+<button type="button" class="btn mx-auto d-block" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  <img src="cart.png" alt="carrito" style="height: 80px; filter:invert(100%)">
+</button>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+       <h5 class="modal-title" id="exampleModalLabel">Mi carrito de compras</h5> <!--modal del carrito-->
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+</nav>
+<!--saludo y dashboard con acceso a cada ruta-->
+{{>Bienvenido}}
+{{>Dashboard}}
+<script src="/BootstrapJs/bootstrap.js"></script>
+

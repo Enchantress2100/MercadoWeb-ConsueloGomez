@@ -1,0 +1,12 @@
+<!--tarjeta de cada producto-->
+<link rel="stylesheet" href="/bootstrap/bootstrap.css">
+<div class="container-fluid card" style="width: 16em; display:inline-block; margin-right:30px">
+  <div class="row">
+    <div class="col-12">
+      {{#each productos}}
+       <img src="{{this}}" alt=""> 
+       <p>{{this}}</p>
+{{/each}}
+</div>
+</div>
+    </div>

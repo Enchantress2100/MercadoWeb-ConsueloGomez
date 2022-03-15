@@ -1,0 +1,14 @@
+<!--al presionar cada producto se accede a su propia ruta :producto -->
+{{#each dashboard }}
+<div class="container-fluid card" style="width: 16em; display:inline-block; margin-right:30px">
+  <div class="row">
+    <div class="col-12">
+        <a href="{{this.name}}"><img src="{{this.src}}" alt="fruta o verdura" width="70%"></a>
+    <p>{{this.name}}</p>
+</div>
+</div>
+    </div>
+<script>
+   
+</script>
+{{/each}}
